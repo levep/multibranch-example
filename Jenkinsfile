@@ -1,9 +1,7 @@
 # Test build
 pipeline {
 
-    agent {
-        docker 'levep79/jdk-alpine'
-    }
+    agent any
     
     stages {
         stage('Example Build') {
