@@ -12,7 +12,7 @@ pipeline {
         stage('Example Deploy') {
             when {
                 beforeInput true
-                branch 'master'
+                branch 'feature1'
             }
             input {
                 message "Deploy to production?"
