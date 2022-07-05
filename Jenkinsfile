@@ -1,4 +1,4 @@
-# Test build
+// Test build
 pipeline {
 
     agent any
